@@ -63,7 +63,7 @@ class DataTablesExtension extends Extension
     /**
      * @return string
      */
-    public function getAlias()
+    public function getAlias(): string
     {
         // Default would underscore the camelcase unintuitively
         return 'datatables';
